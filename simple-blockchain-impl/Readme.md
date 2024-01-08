@@ -35,7 +35,9 @@ Blockchain 框架代码：
 
 
 
-实现以上函数，完成一个最基础的Blockchain。
+**任务**：实现以上函数，完成一个最基础的Blockchain。
+提交到自己的 GitHub 仓库
+
 
 ## 参考
 
