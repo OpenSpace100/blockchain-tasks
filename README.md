@@ -29,6 +29,11 @@ Task: https://github.com/OpenSpace100/blockchain-tasks/tree/main/simple-blockcha
 Video：https://meeting.tencent.com/v2/cloud-record/share?id=1e922724-a046-4b74-b843-92aac8210ab5&from=3
 Pwd：cQZJ
 
+## DAY1
+### English
+Week1Day2 Transcript
+https://docs.google.com/document/d/1_F8MISoJK12S0c6JFzuMHs2x7r7XUS1JrCUy1aH2d9E/edit?usp=sharing
+
 
 
 
