@@ -2,10 +2,10 @@
 
 ## DAY1
 
-### Course Agenda
+### English
+Course Agenda
 https://almondine-night-686.notion.site/ff03597c84fd4bcc9885c4b5669cd6af?pvs=4
 
-### English
 
 Week1 Transcript - Ordinal Infrastructure - Bitcoin 2023
 https://docs.google.com/document/d/1H4o5ptMZS0QWbr2ro9RvD6Y1dp14jIZ_VuuAsqy_3Fc/edit?usp=sharing
