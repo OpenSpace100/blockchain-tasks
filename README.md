@@ -2,6 +2,8 @@
 
 ## DAY1
 
+### Course Agenda
+https://almondine-night-686.notion.site/ff03597c84fd4bcc9885c4b5669cd6af?pvs=4
 
 ### English
 
