@@ -39,6 +39,9 @@ Week1Day2 Session Notes
 https://docs.google.com/document/d/15nx8_p8nOw9E5tShMorD3Wg_UB7ToeGO7rYWOMfH8Wk/edit?usp=sharing
 
 
+### Tech
+PDF:
+https://drive.google.com/file/d/1bom8Lw60ume6A5ERf0-yIdqBmLf3iVEo/view?usp=drive_link
 
 
 
