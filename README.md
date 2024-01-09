@@ -44,5 +44,8 @@ PDF:
 
 https://drive.google.com/file/d/1bom8Lw60ume6A5ERf0-yIdqBmLf3iVEo/view?usp=sharing
 
-
+## DAY2
+### English
+Week1Day3 Transcript
+https://docs.google.com/document/d/1XhyhaCvYTRvd5qXHohWT_Bs_StHYrLPTuHxQ9WmaDdk/edit?usp=sharing
 
