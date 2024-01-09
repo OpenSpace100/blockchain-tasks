@@ -35,6 +35,8 @@ Pwd：cQZJ
 ### English
 Week1Day2 Transcript
 https://docs.google.com/document/d/1_F8MISoJK12S0c6JFzuMHs2x7r7XUS1JrCUy1aH2d9E/edit?usp=sharing
+Week1Day2 Session Notes
+https://docs.google.com/document/d/15nx8_p8nOw9E5tShMorD3Wg_UB7ToeGO7rYWOMfH8Wk/edit?usp=sharing
 
 
 
