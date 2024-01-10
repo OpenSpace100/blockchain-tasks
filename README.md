@@ -51,3 +51,10 @@ https://docs.google.com/document/d/1XhyhaCvYTRvd5qXHohWT_Bs_StHYrLPTuHxQ9WmaDdk/
 Week1Day3 Session Notes
 https://docs.google.com/document/d/1rINFFkJrcttiILK9H7IimIzuAHzRXCW1I7PFrSVjC_A/edit?usp=sharing
 
+
+### Tech
+
+PDF: https://drive.google.com/file/d/10BeY5zdTOkZT7n3oQhhM9_ZhSoq8z2s-/view?usp=sharing
+Code: solidity_sample_code
+
+
