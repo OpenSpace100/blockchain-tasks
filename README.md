@@ -49,7 +49,7 @@ https://drive.google.com/file/d/1bom8Lw60ume6A5ERf0-yIdqBmLf3iVEo/view?usp=shari
 Week1Day3 Transcript
 https://docs.google.com/document/d/1XhyhaCvYTRvd5qXHohWT_Bs_StHYrLPTuHxQ9WmaDdk/edit?usp=sharing
 Week1Day3 Session Notes
-https://docs.google.com/document/d/1rINFFkJrcttiILK9H7IimIzuAHzRXCW1I7PFrSVjC_A/edit?usp=sharing
+https://docs.google.com/document/d/1XhyhaCvYTRvd5qXHohWT_Bs_StHYrLPTuHxQ9WmaDdk/edit?usp=sharing
 
 
 ### Tech
