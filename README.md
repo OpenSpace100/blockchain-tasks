@@ -1,5 +1,7 @@
 # blockchain-tasks
 
+# Week1
+
 ## DAY1
 
 ### English
@@ -58,5 +60,10 @@ https://docs.google.com/document/d/1rINFFkJrcttiILK9H7IimIzuAHzRXCW1I7PFrSVjC_A/
 
 PDF: https://drive.google.com/file/d/10BeY5zdTOkZT7n3oQhhM9_ZhSoq8z2s-/view?usp=sharing
 Code: solidity_sample_code
+
+## DAY4 
+PDF: https://drive.google.com/file/d/1iJLz_gNwgLyBo1UBiSDmAzw8Jhn7jqkM/view?usp=sharing
+Code: solidity_sample_code
+
 
 
