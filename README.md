@@ -70,5 +70,5 @@ Code: solidity_sample_code
 ## DAY1
 
 ### English
-https://www.notion.so/706community/How-we-use-on-chain-data-to-make-investment-decisions-fce38aeddb42485ba90a2a6d83789bd6?pvs=4
+https://706community.notion.site/How-we-use-on-chain-data-to-make-investment-decisions-fce38aeddb42485ba90a2a6d83789bd6
 
