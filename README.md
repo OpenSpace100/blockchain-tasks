@@ -65,5 +65,10 @@ Code: solidity_sample_code
 PDF: https://drive.google.com/file/d/1iJLz_gNwgLyBo1UBiSDmAzw8Jhn7jqkM/view?usp=sharing
 Code: solidity_sample_code
 
+# Week1
 
+## DAY1
+
+### English
+https://www.notion.so/706community/How-we-use-on-chain-data-to-make-investment-decisions-fce38aeddb42485ba90a2a6d83789bd6?pvs=4
 
