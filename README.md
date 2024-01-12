@@ -65,7 +65,7 @@ Code: solidity_sample_code
 PDF: https://drive.google.com/file/d/1iJLz_gNwgLyBo1UBiSDmAzw8Jhn7jqkM/view?usp=sharing
 Code: solidity_sample_code
 
-# Week1
+# Week2
 
 ## DAY1
 
