@@ -62,8 +62,13 @@ PDF: https://drive.google.com/file/d/10BeY5zdTOkZT7n3oQhhM9_ZhSoq8z2s-/view?usp=
 Code: solidity_sample_code
 
 ## DAY4 
+### Tech
 PDF: https://drive.google.com/file/d/1iJLz_gNwgLyBo1UBiSDmAzw8Jhn7jqkM/view?usp=sharing
 Code: solidity_sample_code
+
+## DAY5
+
+PDF: https://drive.google.com/file/d/1G5dIKCdP7_TpaXKf1tdzAfcDxW5ndhZO/view?usp=sharing
 
 # Week2
 
