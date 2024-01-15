@@ -81,3 +81,7 @@ https://drive.google.com/file/d/17Vb2688qhfx9sfP2U3jgTrefP8PAmG-B/view?usp=shari
 Week2Day1 Session Notes
 https://docs.google.com/document/d/1DnbmvKk_O4dKVnYJkSh2a26tJY-guItlWjnfgiPlO0s/edit?usp=sharing
 
+
+### Tech
+
+PDF: https://drive.google.com/file/d/1FoNvXZTkVCwCOxkGbROvXhXUEmH86M8G/view?usp=sharing
