@@ -76,4 +76,8 @@ PDF: https://drive.google.com/file/d/1G5dIKCdP7_TpaXKf1tdzAfcDxW5ndhZO/view?usp=
 
 ### English
 https://706community.notion.site/How-we-use-on-chain-data-to-make-investment-decisions-fce38aeddb42485ba90a2a6d83789bd6
+Graph Description Examples
+https://drive.google.com/file/d/17Vb2688qhfx9sfP2U3jgTrefP8PAmG-B/view?usp=sharing
+Week2Day1 Session Notes
+https://docs.google.com/document/d/1DnbmvKk_O4dKVnYJkSh2a26tJY-guItlWjnfgiPlO0s/edit?usp=sharing
 
