@@ -86,3 +86,9 @@ https://docs.google.com/document/d/1DnbmvKk_O4dKVnYJkSh2a26tJY-guItlWjnfgiPlO0s/
 
 PDF: https://drive.google.com/file/d/1FoNvXZTkVCwCOxkGbROvXhXUEmH86M8G/view?usp=sharing
 Code: w2_code
+
+
+## DAY2
+### English
+Week2Day2 Session Notes
+https://docs.google.com/document/d/12LiRrzcmV3qKXX-phFLjSz0lW_YOa4-_2Ie6slXjQiU/edit?usp=sharing
