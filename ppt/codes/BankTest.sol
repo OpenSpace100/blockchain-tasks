@@ -62,8 +62,10 @@ contract BankTest is Test {
         bank.stake{value: 0.001 ether + 1}();
 
         // 期望失败，有错误信息
-        vm.expectRevert();
-        bank.stake{value: 0.001 ether}();
+        // 期望失败，有错误信息
+        uint256 amount =0.001 ether;
+        vm.expectRevert(abi.encodeWithSelector(BigBank.AmountNotEnough.selector,amount));
+        bank.stake{value: amount}();
     }
 
     function test_Withdraw() public {
