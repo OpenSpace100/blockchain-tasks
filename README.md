@@ -92,3 +92,8 @@ Code: w2_code
 ### English
 Week2Day2 Session Notes
 https://docs.google.com/document/d/12LiRrzcmV3qKXX-phFLjSz0lW_YOa4-_2Ie6slXjQiU/edit?usp=sharing
+
+## DAY3
+### English
+An Overview on L2s
+https://docs.google.com/document/d/1Atz4tYyUu_KkmLTZzZo_HRHPo5xygOBAnjbeAwefsFA/edit?usp=sharing
