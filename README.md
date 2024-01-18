@@ -116,7 +116,9 @@ ppt/HowToTest.md
 
 ppt/codes/BankTest.sol
 
-作业：
+作业
+测试你们自己的 NFTMarket 合约：
+
 1. 测试 List 上架
 
 2. 测试 Buy 功能
