@@ -88,11 +88,6 @@ Code: w2_code
 
 PDF: https://drive.google.com/file/d/1FoNvXZTkVCwCOxkGbROvXhXUEmH86M8G/view?usp=sharing
 
-ppt/01.WhatIsABI.md 
-
-ppt/IntroductionFoundry.md 
-
-ppt/WhatIsEvent.md
 
 
 ## DAY2
@@ -100,10 +95,36 @@ ppt/WhatIsEvent.md
 Week2Day2 Session Notes
 https://docs.google.com/document/d/12LiRrzcmV3qKXX-phFLjSz0lW_YOa4-_2Ie6slXjQiU/edit?usp=sharing
 
+### Tech
+
+ppt/01.WhatIsABI.md 
+
+ppt/IntroductionFoundry.md 
+
+ppt/WhatIsEvent.md
+
+
 ## DAY3
 ### English
 An Overview on L2s
 https://docs.google.com/document/d/1Atz4tYyUu_KkmLTZzZo_HRHPo5xygOBAnjbeAwefsFA/edit?usp=sharing
+
+
+### Tech
+
+ppt/HowToTest.md 
+
+ppt/codes/BankTest.sol
+
+作业：
+1. 测试 List 上架
+
+2. 测试 Buy 功能
+
+3. 测试  transferWithCallbak
+
+
+
 ## DAY4
 ### English
 Solidity Interview Questions https://docs.google.com/document/d/1vmQWBX2j1p7BvqJM79Kh817S9xy2Rjo3ibIS7tqdlhA/edit?usp=sharing
