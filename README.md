@@ -130,3 +130,15 @@ ppt/codes/BankTest.sol
 ## DAY4
 ### English
 Solidity Interview Questions https://docs.google.com/document/d/1vmQWBX2j1p7BvqJM79Kh817S9xy2Rjo3ibIS7tqdlhA/edit?usp=sharing
+
+### Tech
+
+[PPT](ppt/HowToTest.md)
+
+作业：
+1. 使用Fuzz测试 Bank 合约的存款和取款功能
+2. 使用Fuzz测试 NFTMaket 合约的 transferWithCallbak
+3. 注册 [Dune](https://dune.com/home) 账号 
+
+
+
