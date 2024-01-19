@@ -1,0 +1,6 @@
+[submodule "w3_permit/lib/forge-std"]
+	path = w3_permit/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "w3_permit/lib/openzeppelin-contracts"]
+	path = w3_permit/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
