@@ -5,6 +5,7 @@ import { ethers } from "ethers";
 import { useState, useEffect } from 'react'
 import bankABI from "./utils/bigbank.json"
 
+// 请替换成BANK合约地址
 const bankAddress = "0x163420Fa9f9A12C34f2728e40D32b6aA0385778e"
 
 interface WalletState { signer: ethers.JsonRpcSigner | null, chainId: string, balance: number | string }
