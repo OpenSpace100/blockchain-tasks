@@ -144,3 +144,15 @@ Solidity Interview Questions https://docs.google.com/document/d/1vmQWBX2j1p7BvqJ
 ## DAY5
 ### English
 ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtbfJjGT0NhJXLGkayyQ3aJ71IE/edit?usp=sharing
+
+### Tech
+
+[PPT](ppt/CreateReactDapp.md),
+[Demo](ppt/codes/mybank-dapp-react)
+
+作业: 创建自己的NFT Market DAPP，功能：
+
+1. 链接钱包
+2. 可上架NFT
+3. 列表显示已经上架的NFT
+4. 可买入指定NFT
