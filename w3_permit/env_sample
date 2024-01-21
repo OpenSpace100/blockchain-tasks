@@ -1,0 +1,5 @@
+GOERLI_RPC_URL=
+MUMBAI_RPC_URL=""
+MNEMONIC="test test test test test test test test test test test junk"
+ETHERSCAN_API_KEY=
+FOUNDRY_PROFILE="local"

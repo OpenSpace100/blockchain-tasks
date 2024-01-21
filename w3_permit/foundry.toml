@@ -3,4 +3,26 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+solc = "0.8.21"
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+
+# [profile.local]
+# eth-rpc-url = "http://127.0.0.1:8545"
+
+
+[fmt]
+line_length = 100
+tab_width = 2
+bracket_spacing = true
+
+[rpc_endpoints]
+goerli = "${GOERLI_RPC_URL}"
+local = "http://127.0.0.1:8545"
+mumbai = "${MUMBAI_RPC_URL}"
+
+
+
+[etherscan]
+goerli = { key = "${ETHERSCAN_API_KEY}" }

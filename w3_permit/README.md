@@ -53,7 +53,11 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/Counter.s.sol:CounterScript -f <your_rpc_url> --private-key <your_private_key>
+
+$ forge script script/xxx.sol -f local --broadcast
+
+$ forge script script/TokenBank.s.sol  --broadcast -f http://127.0.0.1:8545
 ```
 
 ### Cast

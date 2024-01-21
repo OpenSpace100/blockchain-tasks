@@ -33,7 +33,7 @@ contract ERC20Test is Test {
             spender: spender,
             value: 1e18,
             nonce: 0,
-            deadline: 1 days
+            deadline: block.timestamp + 1 days
         });
 
         bytes32 digest = sigUtils.getTypedDataHash(permit);
