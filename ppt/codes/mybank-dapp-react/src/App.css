@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+button {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  
+}
