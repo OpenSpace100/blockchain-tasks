@@ -156,3 +156,20 @@ ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtb
 2. 可上架NFT
 3. 列表显示已经上架的NFT
 4. 可买入指定NFT
+
+
+# WEEK3
+
+## DAY1
+
+[PPT](ppt/HowToScan.md)
+[Demo](ppt/codes/mybank-dapp-purejs)
+
+
+作业: 创建自己的NFT Market DAPP，功能：
+
+1. 链接钱包
+2. 可上架NFT
+3. 列表显示已经上架的NFT
+4. 可买入指定NFT
+5. 动态展示所有NFT Market中的 List、Buy 日志
