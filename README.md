@@ -173,3 +173,10 @@ ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtb
 3. 列表显示已经上架的NFT
 4. 可买入指定NFT
 5. 动态展示所有NFT Market中的 List、Buy 日志
+
+## DAY2
+
+[PPT](ppt/HowToUseTheGraph.md)
+[Demo](ppt/codes/thegraph/)
+
+作业：将自己的NFT Market 合约部署到 sepolia 测试网络，并部署 NFT Market 的子图。
