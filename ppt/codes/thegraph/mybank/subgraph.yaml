@@ -1,0 +1,32 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources: 
+  - kind: ethereum
+    name: BigBank
+    network: sepolia
+    source:
+      address: "0x3fd542687000843f7b1d79945e8d1b7b44c09fd1"
+      abi: BigBank
+      startBlock: 5137928
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Deposit
+        - Top3Changed
+        - Withdraw
+      abis:
+        - name: BigBank
+          file: ./abis/BigBank.json
+      eventHandlers:
+        - event: Deposit(indexed address,uint256)
+          handler: handleDeposit
+        - event: Top3Changed(address,address,address)
+          handler: handleTop3Changed
+        - event: Withdraw(indexed address,uint256,uint256)
+          handler: handleWithdraw
+      file: ./src/big-bank.ts
