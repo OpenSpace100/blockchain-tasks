@@ -175,7 +175,7 @@ ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtb
 5. 动态展示所有NFT Market中的 List、Buy 日志
 
 ## DAY2
-
+### Tech
 [PPT](ppt/HowToUseTheGraph.md)
 [Demo](ppt/codes/thegraph/)
 
@@ -184,3 +184,7 @@ ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtb
 ## DAY3
 ### English
 Solidity Interview Questions 中英 https://docs.google.com/document/d/1F51_cEHwtCeDgQ447BAdAqERC9JOrTNZRxO47JWpcvg/edit?usp=sharing
+
+### Tech
+PDF:  https://drive.google.com/file/d/1AVJHrS69iokc19Y6aexe-DTtUwlk9_LQ/view?usp=sharing
+Code: 
