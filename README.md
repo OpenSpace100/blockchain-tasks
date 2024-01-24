@@ -180,6 +180,7 @@ ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtb
 [Demo](ppt/codes/thegraph/)
 
 作业：将自己的NFT Market 合约部署到 sepolia 测试网络，并部署 NFT Market 的子图。
+可从子图中查询出某个地址的所有持有的Token Id。
 
 ## DAY3
 ### English
@@ -187,4 +188,9 @@ Solidity Interview Questions 中英 https://docs.google.com/document/d/1F51_cEHw
 
 ### Tech
 PDF:  https://drive.google.com/file/d/1AVJHrS69iokc19Y6aexe-DTtUwlk9_LQ/view?usp=sharing
-Code: 
+[w3_permit 合约 Code](https://github.com/OpenSpace100/blockchain-tasks/tree/main/w3_permit)
+[w3_permit 前端 Code](https://github.com/OpenSpace100/viemtutorial)
+
+
+
+
