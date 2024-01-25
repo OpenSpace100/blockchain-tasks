@@ -194,8 +194,11 @@ PDF:  https://drive.google.com/file/d/1AVJHrS69iokc19Y6aexe-DTtUwlk9_LQ/view?usp
 
 ## DAY4
 ### English
-Ethereum vs Solana
-Transcript https://docs.google.com/document/d/14sUljstBPFzGBf36dzTmL1-r8In4YKK6C-ubJiPhMFg/edit?usp=sharing
-Listening Cloze https://docs.google.com/document/d/1PRnDaqN1yht8vt1llED5-SXVgHBDslL2qnvay4vl79E/edit?usp=sharing
+Ethereum vs Solana Transcript 
+https://docs.google.com/document/d/14sUljstBPFzGBf36dzTmL1-r8In4YKK6C-ubJiPhMFg/edit?usp=sharing
+Listening Cloze 
+https://docs.google.com/document/d/1PRnDaqN1yht8vt1llED5-SXVgHBDslL2qnvay4vl79E/edit?usp=sharing
+Web3 Bootcamp English Vocabulary
+https://docs.google.com/spreadsheets/d/13wYPUcZgXYl803rAvoTYL9Q9K3X1QZIO-3Le4DPAn00/edit?usp=sharing
 
 
