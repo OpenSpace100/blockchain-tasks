@@ -201,4 +201,7 @@ https://docs.google.com/document/d/1PRnDaqN1yht8vt1llED5-SXVgHBDslL2qnvay4vl79E/
 Web3 Bootcamp English Vocabulary
 https://docs.google.com/spreadsheets/d/13wYPUcZgXYl803rAvoTYL9Q9K3X1QZIO-3Le4DPAn00/edit?usp=sharing
 
+### Tech
+[PPT](./ppt/StateLayout.md)
 
+在NFT Market合约中使用Slot模式读取和修改Owner地址
