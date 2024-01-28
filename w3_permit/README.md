@@ -60,6 +60,18 @@ $ forge script script/xxx.sol -f local --broadcast
 $ forge script script/TokenBank.s.sol  --broadcast -f http://127.0.0.1:8545
 ```
 
+for upgrade:
+
+```
+forge script script/Counter.s.sol --broadcast --ffi -f local
+
+forge script script/CounterV2.s.sol --broadcast --ffi -f local --sender <ADDRESS>
+
+
+```
+
+
+
 ### Cast
 
 ```shell
