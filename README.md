@@ -211,3 +211,19 @@ https://docs.google.com/spreadsheets/d/13wYPUcZgXYl803rAvoTYL9Q9K3X1QZIO-3Le4DPA
 ### English
 Celestia https://docs.google.com/document/d/1x-niO0HQu3fTVL36PKzEGoCvMoTWgIY37M4EYmKTTTM/edit?usp=sharing
 Listening Cloze https://docs.google.com/document/d/1rvm2NbKuq8cRpP3UqPG8ZRdnvlLJiNwONVqVfqRYC00/edit?usp=sharing
+
+
+# WEEK4
+## DAY1
+Web3 Bootcamp English Vocabulary
+https://docs.google.com/spreadsheets/d/13wYPUcZgXYl803rAvoTYL9Q9K3X1QZIO-3Le4DPAn00/edit?usp=sharing
+Week4Day1 Crypto News 领读 
+https://docs.google.com/document/d/149xNIpESAegwgnGengg-iu-f3yuFaRcqp9vKs4KDXVo/edit?usp=sharing
+
+## DAY2
+Week4Day2 Crypto News 领读
+https://docs.google.com/document/d/1FGkzmWNfRGdbrvI6-5ZHmMNztEjG84LmUF7xP-_eE5I/edit?usp=sharing
+
+## DAY3
+Week4Day3 Crypto News 领读
+https://docs.google.com/document/d/1RhJOvUVGOZ0WNaig5kPfiPmsQQFLBSCFwQiNIsC0ebA/edit?usp=sharing
