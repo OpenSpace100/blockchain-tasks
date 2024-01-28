@@ -7,3 +7,6 @@
 [submodule "w3_permit/lib/openzeppelin-foundry-upgrades"]
 	path = w3_permit/lib/openzeppelin-foundry-upgrades
 	url = https://github.com/OpenZeppelin/openzeppelin-foundry-upgrades
+[submodule "w3_permit/lib/openzeppelin-contracts-upgradeable"]
+	path = w3_permit/lib/openzeppelin-contracts-upgradeable
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
