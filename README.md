@@ -227,3 +227,8 @@ https://docs.google.com/document/d/1FGkzmWNfRGdbrvI6-5ZHmMNztEjG84LmUF7xP-_eE5I/
 ## DAY3
 Week4Day3 Crypto News 领读
 https://docs.google.com/document/d/1RhJOvUVGOZ0WNaig5kPfiPmsQQFLBSCFwQiNIsC0ebA/edit?usp=sharing
+
+
+## Teth
+
+PDF: https://drive.google.com/file/d/19NZSCWy1i_yEkHS2wtOoyZW8rxmOMIep/view?usp=sharing
