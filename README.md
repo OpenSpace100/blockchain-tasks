@@ -224,11 +224,28 @@ https://docs.google.com/document/d/149xNIpESAegwgnGengg-iu-f3yuFaRcqp9vKs4KDXVo/
 Week4Day2 Crypto News 领读
 https://docs.google.com/document/d/1FGkzmWNfRGdbrvI6-5ZHmMNztEjG84LmUF7xP-_eE5I/edit?usp=sharing
 
+
+### Tech
+
+PDF: https://drive.google.com/file/d/19NZSCWy1i_yEkHS2wtOoyZW8rxmOMIep/view?usp=sharing
+
+
 ## DAY3
 Week4Day3 Crypto News 领读
 https://docs.google.com/document/d/1RhJOvUVGOZ0WNaig5kPfiPmsQQFLBSCFwQiNIsC0ebA/edit?usp=sharing
 
 
-## Teth
+### Tech
 
-PDF: https://drive.google.com/file/d/19NZSCWy1i_yEkHS2wtOoyZW8rxmOMIep/view?usp=sharing
+[PPT: UseDune](./ppt/UseDune.md)、[PPT: Web3 connect](./ppt/Web3Connect.md)
+
+homework1:
+
+Create [KODA NFT Token](https://etherscan.io/token/0xe012baf811cf9c05c408e879c399960d1f305903) dashboard , includes:
+
+1. total holders
+2. holder list
+3. option: Buy/Sell trades from OpenSean and Blur.
+
+homework2: Use RainbowKit on your NFT Market ! 
+
