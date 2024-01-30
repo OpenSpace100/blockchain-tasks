@@ -252,3 +252,13 @@ Create [KODA NFT Token](https://etherscan.io/token/0xe012baf811cf9c05c408e879c39
 
 homework2: Use RainbowKit on your NFT Market ! 
 
+
+## DAY4
+### English
+Week4Day4 Crypto News 领读
+https://docs.google.com/document/d/1bY3TTg_DgFttTcBzbRUVMBNpdMnOKEgKHVTNu1NBX08/edit?usp=sharing
+
+## DAY5
+### English
+Week4Day5 Crypto News 领读
+https://docs.google.com/document/d/12566hSw93okjiiOw8QNWzTHto-yU7McCx6ie1os4N3s/edit?usp=sharing
