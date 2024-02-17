@@ -1,0 +1,263 @@
+<html>
+
+<head>
+    <title>BANK Protocl</title>
+
+    <style>
+        .main {
+            text-align: center;
+            margin: auto;
+        }
+
+        .actions {
+            margin: 10px;
+
+        }
+
+        .logs {
+            text-align: left;
+        }
+
+        button {
+            margin: 10px;
+            min-width: 120px;
+            min-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h1>
+            My Bank
+        </h1>
+        <button id="btnConn"> Connect Wallet </button>
+
+        <div class="actions">
+            <input id="inputAmount" type="number" />
+            <button id="btnDeposit">Deposit ETH</button>
+            <button id="btnWithdraw"> Withdraw </button>
+
+        </div>
+        <div class="logs">
+
+        </div>
+
+    </div>
+    <script type="module">
+        import { ethers } from "https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.min.js";
+
+        var wallet;
+        var bankContract;
+        var bankAddress = "0x3fd542687000843f7b1d79945e8d1b7b44c09fd1" // checksum
+
+        window.onload = function () {
+            document.getElementById("btnConn").onclick = handleConnection;
+            document.getElementById("btnDeposit").onclick = handleDeposit;
+            document.getElementById("btnWithdraw").onclick = handleWithdraw;
+            handleConnection();
+        }
+
+        async function handleConnection() {
+
+            if (window.ethereum == null) {
+                printLog("Please install wallet first!")
+            } else {
+                let provider = new ethers.BrowserProvider(window.ethereum)
+                provider.getSigner().then((signer) => {
+                    printLog("welcome " + signer.address);
+                    updateWalletInfo(signer);//更新数据
+                    initBankContract();//需要构建对象
+                    refreshState();
+                    // 登录成功后，监控Bank的所有操作事件
+                    let start = 13
+                    getLogs(start, start + 2)
+                }).catch(err => {
+                    console.log(Object.keys(err))
+                    printLog(err.reason ? err.reason : err);
+                });
+            }
+
+        }
+
+        // 更新钱包信息
+        async function updateWalletInfo(signer) {
+            wallet = signer// update 
+        }
+
+        // 初始化Bank合约对象
+        function initBankContract() {
+
+            var abi = [
+                "function depositETH() external payable",
+                "function userWithdraw() external",
+                "function balanceOf(address who) public view returns(uint)",
+                "function viewTopThree() public view returns(address[3])",
+                "function withdraw(uint256) external",
+                "event Deposit(address indexed acct,uint256 amount)",
+                "event Withdraw(address indexed acct,uint256 amount,uint256 remain)",
+                "event Top3Changed(address t0,address t1,address t2)",
+
+            ]
+            // 合约对象
+            // https://docs.ethers.org/v6/api/contract/
+            // 需要更新成你自己的合约地址
+            bankContract = new ethers.Contract(bankAddress,
+                abi, wallet)
+        }
+
+        // 更新链上的状态数据
+        async function refreshState() {
+            if (!wallet) return;
+
+            // 读取ETH 余额
+            const balance = await wallet.provider.getBalance(wallet.address, "latest")
+            console.log(balance)
+            printLog(`You balance is ${ethers.formatEther(balance)}ETH`)
+
+            // Bank 存款额
+            const balanceBank = await bankContract.balanceOf(wallet.address)
+
+            const btn = document.getElementById("btnWithdraw");
+            if (balanceBank == 0) {
+                btn.disabled = true;
+                btn.innerText = "Withdraw"
+            } else {
+                btn.disabled = false;
+                btn.innerText = `Withdraw ${ethers.formatEther(balanceBank)} ETH`
+            }
+
+        }
+
+        async function handleDeposit() {
+            if (!bankContract) {
+                return;
+            }
+
+            const amount = document.getElementById("inputAmount").value;
+            if (amount <= 0) {
+                printLog("Invalid input amount!")
+                return;
+            }
+            const amountWei = ethers.parseEther(amount);
+
+            const result = await bankContract.depositETH({ value: amountWei });
+            printTx(result)
+        }
+
+        async function handleWithdraw() {
+            const amount = document.getElementById("inputAmount").value;
+            // 如果为0则，则提取所有，否则部分提取
+            if (amount == "" || parseFloat(amount) == 0) {
+                printTx(await bankContract.userWithdraw())
+                return;
+            } else {
+                const amountWei = ethers.parseEther(amount);
+                printTx(await bankContract.withdraw(amountWei))
+            }
+        }
+
+
+        async function getLogs(fromBlock, toBlock) {
+
+            const userAddress = wallet.address
+
+            // 定义日志过滤器，去查询我需要的数据
+            let filter = {
+                fromBlock, toBlock,
+                address: bankAddress,
+                // topics: [ //这是一个 Array<string>
+                //     bankContract.getEvent("Deposit").fragment.topicHash, ethers.zeroPadValue(userAddress, 32),
+                //     // [bankContract.getEvent("Withdraw").fragment.topicHash, ethers.zeroPadValue(userAddress, 32)],
+                // ]
+            }
+
+
+            // 检查 toBlock 是不是已经是最新的区块
+
+            let currentBlock = await wallet.provider.getBlockNumber()
+
+            // 如果是则获取到当前即可
+            if (filter.toBlock > currentBlock) {
+                filter.toBlock = currentBlock;
+            }
+
+            wallet.provider.getLogs(filter).then(logs => {
+                if (logs.length > 0) decodeEvents(logs)
+
+                // 2秒后继续取数据
+                if (currentBlock <= fromBlock && logs.length == 0) {
+                    console.log("begin monitor")
+                    // 如果没有获取到新的数据，可能是区块没有出现，继续retry
+                    // 方式1，继续轮训
+                    // setTimeout(() => {
+                    //     getLogs(fromBlock, toBlock)
+                    // }, 2000);
+                    // 方式2: 监听
+                    bankContract.on("Deposit",function(a0,a1,event){
+                        decodeEvents([event.log])
+                    })
+                    bankContract.on("Withdraw",function(a0,a1,event){
+                        decodeEvents([event.log])
+                    })
+                    bankContract.on("Top3Changed",function(a0,a1,a3,event){
+                        decodeEvents([event.log])
+                    })
+                } else {
+                    // 如果有数据则继续
+                    getLogs(toBlock + 1, toBlock + 1 + 2)
+                }
+            })
+
+        }
+
+        function decodeEvents(logs) {
+
+            const depositEvent = bankContract.getEvent("Deposit").fragment
+            const withdrawEvent = bankContract.getEvent("Withdraw").fragment
+            const top3ChangedEvent = bankContract.getEvent("Top3Changed").fragment
+
+            for (var i = 0; i < logs.length; i++) {
+                const item = logs[i]
+                const eventId = item.topics[0] // topic0
+                if (eventId == depositEvent.topicHash) {// Deposit event Id
+                    const data = bankContract.interface.decodeEventLog(depositEvent, item.data, item.topics)
+                    printLog(`Block:${item.blockNumber} ${data.acct} deposit ${ethers.formatEther(data.amount)} ETH (${item.transactionHash})`)
+                } else if (eventId == withdrawEvent.topicHash) {// Deposit event Id
+                    const data = bankContract.interface.decodeEventLog(withdrawEvent, item.data, item.topics)
+                    printLog(`Block:${item.blockNumber} ${data.acct} withdraw ${ethers.formatEther(data.amount)} ETH (${item.transactionHash})`)
+
+                } if (eventId == top3ChangedEvent.topicHash) {// Deposit event Id
+                    const data=bankContract.interface.decodeEventLog(top3ChangedEvent,item.data,item.topics)
+                    printLog(`Block:${item.blockNumber} Update Top3 ${  data.t0 }、 ${  data.t1 }、 ${  data.t2 }`)
+                }
+            }
+
+        }
+
+        // 打印交易执行过程信息
+        async function printTx(result) {
+            printLog("Tx hash:" + result.hash)
+            printLog("Waiting tx minted....")
+
+            // 等待交易打包
+            const receipt = await result.wait()
+            printLog("Get Receipt:" + JSON.stringify(receipt, "", ""))
+
+            // 交易执行结束后更新状态
+            refreshState();
+        }
+
+        function printLog(msg) {
+            let p = document.createElement("p");
+            p.textContent = msg
+            document.getElementsByClassName("logs")[0].appendChild(p)
+        }
+
+
+    </script>
+</body>
+
+</html>

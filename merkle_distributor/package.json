@@ -1,0 +1,18 @@
+{
+  "name": "merkle_distributor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.11",
+    "typescript": "^5.3.3",
+    "viem": "^2.6.1"
+  }
+}

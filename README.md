@@ -156,3 +156,113 @@ ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtb
 2. 可上架NFT
 3. 列表显示已经上架的NFT
 4. 可买入指定NFT
+
+
+# WEEK3
+
+## DAY1
+
+[PPT](ppt/HowToScan.md)
+[Demo](ppt/codes/mybank-dapp-purejs)
+
+
+作业: 创建自己的NFT Market DAPP，功能：
+
+1. 链接钱包
+2. 可上架NFT
+3. 列表显示已经上架的NFT
+4. 可买入指定NFT
+5. 动态展示所有NFT Market中的 List、Buy 日志
+
+## DAY2
+### Tech
+[PPT](ppt/HowToUseTheGraph.md)
+[Demo](ppt/codes/thegraph/)
+
+作业：将自己的NFT Market 合约部署到 sepolia 测试网络，并部署 NFT Market 的子图。
+可从子图中查询出某个地址的所有持有的Token Id。
+
+## DAY3
+### English
+Solidity Interview Questions 中英 https://docs.google.com/document/d/1F51_cEHwtCeDgQ447BAdAqERC9JOrTNZRxO47JWpcvg/edit?usp=sharing
+
+### Tech
+PDF:  https://drive.google.com/file/d/1AVJHrS69iokc19Y6aexe-DTtUwlk9_LQ/view?usp=sharing
+[w3_permit 合约 Code](https://github.com/OpenSpace100/blockchain-tasks/tree/main/w3_permit)
+[w3_permit 前端 Code](https://github.com/OpenSpace100/viemtutorial)
+
+
+## DAY4
+### English
+Ethereum vs Solana Transcript 
+https://docs.google.com/document/d/14sUljstBPFzGBf36dzTmL1-r8In4YKK6C-ubJiPhMFg/edit?usp=sharing
+Listening Cloze 
+https://docs.google.com/document/d/1PRnDaqN1yht8vt1llED5-SXVgHBDslL2qnvay4vl79E/edit?usp=sharing
+Web3 Bootcamp English Vocabulary
+https://docs.google.com/spreadsheets/d/13wYPUcZgXYl803rAvoTYL9Q9K3X1QZIO-3Le4DPAn00/edit?usp=sharing
+
+### Tech
+[PPT](./ppt/StateLayout.md)
+
+在NFT Market合约中使用Slot模式读取和修改Owner地址
+
+
+## DAY5
+### English
+Celestia https://docs.google.com/document/d/1x-niO0HQu3fTVL36PKzEGoCvMoTWgIY37M4EYmKTTTM/edit?usp=sharing
+Listening Cloze https://docs.google.com/document/d/1rvm2NbKuq8cRpP3UqPG8ZRdnvlLJiNwONVqVfqRYC00/edit?usp=sharing
+
+
+# WEEK4
+## DAY1
+### English
+Web3 Bootcamp English Vocabulary
+https://docs.google.com/spreadsheets/d/13wYPUcZgXYl803rAvoTYL9Q9K3X1QZIO-3Le4DPAn00/edit?usp=sharing
+Week4Day1 Crypto News 领读 
+https://docs.google.com/document/d/149xNIpESAegwgnGengg-iu-f3yuFaRcqp9vKs4KDXVo/edit?usp=sharing
+
+### Tech
+
+PDF: https://drive.google.com/file/d/19NZSCWy1i_yEkHS2wtOoyZW8rxmOMIep/view?usp=sharing
+
+## DAY2
+### English
+Week4Day2 Crypto News 领读
+https://docs.google.com/document/d/1FGkzmWNfRGdbrvI6-5ZHmMNztEjG84LmUF7xP-_eE5I/edit?usp=sharing
+
+
+### Tech
+
+[PPT: UseDune](./ppt/UseDune.md)、[PPT: Web3 connect](./ppt/Web3Connect.md)
+
+homework1:
+
+Create [KODA NFT Token](https://etherscan.io/token/0xe012baf811cf9c05c408e879c399960d1f305903) dashboard , includes:
+
+1. total holders
+2. holder list
+3. option: Buy/Sell trades from OpenSean and Blur.
+
+homework2: Use RainbowKit on your NFT Market ! 
+
+
+
+## DAY3
+### English
+Week4Day3 Crypto News 领读
+https://docs.google.com/document/d/1RhJOvUVGOZ0WNaig5kPfiPmsQQFLBSCFwQiNIsC0ebA/edit?usp=sharing
+
+
+### Tech
+
+PDF: https://drive.google.com/file/d/1s1V9B9HWCsFJ3aWiSmm-omdel84R4M0-/view?usp=sharing
+
+## DAY4
+### English
+Week4Day4 Crypto News 领读
+https://docs.google.com/document/d/1bY3TTg_DgFttTcBzbRUVMBNpdMnOKEgKHVTNu1NBX08/edit?usp=sharing
+
+## DAY5
+### English
+Week4Day5 Crypto News 领读
+https://docs.google.com/document/d/12566hSw93okjiiOw8QNWzTHto-yU7McCx6ie1os4N3s/edit?usp=sharing
