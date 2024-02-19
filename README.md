@@ -266,3 +266,12 @@ https://docs.google.com/document/d/1bY3TTg_DgFttTcBzbRUVMBNpdMnOKEgKHVTNu1NBX08/
 ### English
 Week4Day5 Crypto News 领读
 https://docs.google.com/document/d/12566hSw93okjiiOw8QNWzTHto-yU7McCx6ie1os4N3s/edit?usp=sharing
+
+# Week5
+
+## DAY1
+
+### English
+Week5 Day1 What's Really Behind the 4-Year Crypto Cycle
+https://docs.google.com/document/d/1yI-UP_mDdCvcvv7fWRb03jtY0CeCzpNBkAZECBR4RAQ/edit?usp=sharing
+
