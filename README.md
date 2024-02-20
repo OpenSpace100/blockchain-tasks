@@ -275,3 +275,6 @@ https://docs.google.com/document/d/12566hSw93okjiiOw8QNWzTHto-yU7McCx6ie1os4N3s/
 Week5 Day1 What's Really Behind the 4-Year Crypto Cycle
 https://docs.google.com/document/d/1yI-UP_mDdCvcvv7fWRb03jtY0CeCzpNBkAZECBR4RAQ/edit?usp=sharing
 
+## Tech:
+PDF： https://drive.google.com/file/d/1w40dpGf3XRzVwh9-0viw7aCtXJp9A2JV/view?usp=sharing
+
