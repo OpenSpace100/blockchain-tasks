@@ -278,3 +278,8 @@ https://docs.google.com/document/d/1yI-UP_mDdCvcvv7fWRb03jtY0CeCzpNBkAZECBR4RAQ/
 ## Tech:
 PDF： https://drive.google.com/file/d/1w40dpGf3XRzVwh9-0viw7aCtXJp9A2JV/view?usp=sharing
 
+## DAY2
+
+### English
+Week5 Day2 The Impact of Global Liquidity on Crypto
+https://docs.google.com/document/d/1u6vcdjfy0pM-ZaxbAaySjrXYeqZ5pLk5IeSyQZ2eTHY/edit?usp=sharing
