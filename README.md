@@ -283,3 +283,9 @@ PDF： https://drive.google.com/file/d/1w40dpGf3XRzVwh9-0viw7aCtXJp9A2JV/view?us
 ### English
 Week5 Day2 The Impact of Global Liquidity on Crypto
 https://docs.google.com/document/d/1u6vcdjfy0pM-ZaxbAaySjrXYeqZ5pLk5IeSyQZ2eTHY/edit?usp=sharing
+
+## DAY3
+
+### English
+Week 5 Day 3 Bitcoin L2 Rollup
+https://docs.google.com/document/d/1UQ745NvJT22FHElV9YWNktCJcpSU7eMH2IsHj0tHL7s/edit?usp=sharing
