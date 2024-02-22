@@ -289,3 +289,9 @@ https://docs.google.com/document/d/1u6vcdjfy0pM-ZaxbAaySjrXYeqZ5pLk5IeSyQZ2eTHY/
 ### English
 Week 5 Day 3 Bitcoin L2 Rollup
 https://docs.google.com/document/d/1UQ745NvJT22FHElV9YWNktCJcpSU7eMH2IsHj0tHL7s/edit?usp=sharing
+
+## DAY4
+
+### English
+Week 5 Day 4 BitVM
+https://docs.google.com/document/d/1eQ_CDdHGvvVDLUAsfBRy3AvkZzTUUQR79V5-cnVY0yA/edit?usp=sharing
