@@ -301,3 +301,11 @@ https://docs.google.com/document/d/1eQ_CDdHGvvVDLUAsfBRy3AvkZzTUUQR79V5-cnVY0yA/
 
 ### Tech
 PDF: https://drive.google.com/file/d/1lV6vmShbzWAnwgxfntQ8k-MGzBlK6XfK/view?usp=sharing
+
+# Week6
+
+## DAY1
+
+### English
+Week 6 Day 1 BitVM 2
+https://docs.google.com/document/d/1bWhm9_lrO11IHUtyu9R9Er5et6FHEOe7sec8fws70IE/edit?usp=sharing
