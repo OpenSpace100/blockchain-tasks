@@ -309,3 +309,9 @@ PDF: https://drive.google.com/file/d/1lV6vmShbzWAnwgxfntQ8k-MGzBlK6XfK/view?usp=
 ### English
 Week 6 Day 1 BitVM 2
 https://docs.google.com/document/d/1bWhm9_lrO11IHUtyu9R9Er5et6FHEOe7sec8fws70IE/edit?usp=sharing
+
+## DAY2
+
+### English
+Week 6 Day 2 The Bitcoin Rollup Pitch
+https://docs.google.com/document/d/1oz6BhrC5f5z9aTOLEJ9ahA4vHShqUXViIJVHZyMPLiA/edit?usp=sharing
