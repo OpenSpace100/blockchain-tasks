@@ -302,7 +302,7 @@ https://docs.google.com/document/d/1eQ_CDdHGvvVDLUAsfBRy3AvkZzTUUQR79V5-cnVY0yA/
 ### Tech
 PDF: https://drive.google.com/file/d/1lV6vmShbzWAnwgxfntQ8k-MGzBlK6XfK/view?usp=sharing
 
-# Week6
+# Week5
 
 ## DAY1
 
@@ -315,3 +315,10 @@ https://docs.google.com/document/d/1bWhm9_lrO11IHUtyu9R9Er5et6FHEOe7sec8fws70IE/
 ### English
 Week 6 Day 2 The Bitcoin Rollup Pitch
 https://docs.google.com/document/d/1oz6BhrC5f5z9aTOLEJ9ahA4vHShqUXViIJVHZyMPLiA/edit?usp=sharing
+
+# Week6
+
+## DAY1
+
+Tech:  [DeFi-StudyCase-Uniswap](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Uniswap.pdf)
+
