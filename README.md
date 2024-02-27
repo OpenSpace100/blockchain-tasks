@@ -329,3 +329,8 @@ Tech:  [DeFi-StudyCase-Uniswap](https://github.com/OpenSpace100/blockchain-tasks
 Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Compound.pdf)
 ### English
 [Week 6 Day 2 The Bitcoin Rollup Pitch](https://docs.google.com/document/d/1oz6BhrC5f5z9aTOLEJ9ahA4vHShqUXViIJVHZyMPLiA/edit?usp=sharing)
+
+
+## Day3
+### English
+[Week 6 Day 3 Are L2s on bitcoin’s blockchains](https://docs.google.com/document/d/1_mKIze9oRXMyMmwJrtTO-zHOsTQu5KqXsa5pbc72Cts/edit?usp=sharing)
