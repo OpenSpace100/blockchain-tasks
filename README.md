@@ -189,7 +189,11 @@ Solidity Interview Questions 中英 https://docs.google.com/document/d/1F51_cEHw
 ### Tech
 PDF:  https://drive.google.com/file/d/1AVJHrS69iokc19Y6aexe-DTtUwlk9_LQ/view?usp=sharing
 [w3_permit 合约 Code](https://github.com/OpenSpace100/blockchain-tasks/tree/main/w3_permit)
+
 [w3_permit 前端 Code](https://github.com/OpenSpace100/viemtutorial)
+
+作业 1  铭文工厂： https://decert.me/quests/75782f22-edb8-4e82-9b68-0a4f46fcaadd
+
 
 
 ## DAY4
