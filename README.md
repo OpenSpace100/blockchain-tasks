@@ -350,5 +350,5 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 
 课件：[DeFi-StudyCase-DAI.pdf](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-DAI.pdf)
 
-作业：无
+作业：[为Fair Launch 提供流动性](https://decert.me/challenge/5bdbdf3c-d357-45d5-8ce4-34ba6aeaf5a0)
 
