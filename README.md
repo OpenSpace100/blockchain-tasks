@@ -352,3 +352,6 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 
 作业：[为Fair Launch 提供流动性](https://decert.me/challenge/5bdbdf3c-d357-45d5-8ce4-34ba6aeaf5a0)
 
+## Day4
+### English
+[Week 6 Day 4 The bitcoin metaphorical bridge](https://docs.google.com/document/d/14pa84nFYMg8i8MVnm4YD0h3Gbm725RoAs82lUW35x-Q/edit?usp=sharing)
