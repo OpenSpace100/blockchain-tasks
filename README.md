@@ -325,12 +325,18 @@ https://docs.google.com/document/d/1oz6BhrC5f5z9aTOLEJ9ahA4vHShqUXViIJVHZyMPLiA/
 ## DAY1
 
 Tech:  [DeFi-StudyCase-Uniswap](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Uniswap.pdf)
+
+作业：部署自己的UniswapV2 和 让NFTMarket合约支持任意Token买NFT。
+
 ### English
 [Week 6 Day 1 BitVM 2](https://docs.google.com/document/d/1bWhm9_lrO11IHUtyu9R9Er5et6FHEOe7sec8fws70IE/edit?usp=sharing)
 
 ## DAY2
 
 Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Compound.pdf)
+
+作业：阅读扩展资料 https://learnblockchain.cn/article/5036 后给NFTMarket赋能，支持买入NFT收入交易手续费，手续费分发给质押ETH到NFTMarket的质押者。
+
 ### English
 [Week 6 Day 2 The Bitcoin Rollup Pitch](https://docs.google.com/document/d/1oz6BhrC5f5z9aTOLEJ9ahA4vHShqUXViIJVHZyMPLiA/edit?usp=sharing)
 
@@ -342,5 +348,7 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 
 ### Tech
 
-作业：
+课件：[DeFi-StudyCase-DAI.pdf](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-DAI.pdf)
+
+作业：无
 
