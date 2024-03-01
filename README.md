@@ -375,5 +375,5 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 课件：https://drive.google.com/file/d/1nPvNoibjmbRvcPxJK0a0MT07vPCYe3ff/view?usp=sharing
 
 [作业 1](https://decert.me/quests/2a63cf95-43ec-42ee-975f-2b41510492cd)
-[作业 2]()
+[作业 2](https://decert.me/quests/5725236b-4e24-4c28-be69-2509087157c4) 
 
