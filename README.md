@@ -364,3 +364,10 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 ## Day5
 ### English
 [Week 6 Day 5 Bitcoin break out](https://docs.google.com/document/d/15vXh3eTm-CO45GkOBECR0K3x5hbQPjoR082DjfWR9zw/edit?usp=sharing)
+
+### Tech
+课件：https://drive.google.com/file/d/1nPvNoibjmbRvcPxJK0a0MT07vPCYe3ff/view?usp=sharing
+
+[作业 1](https://decert.me/quests/2a63cf95-43ec-42ee-975f-2b41510492cd)
+[作业 2]()
+
