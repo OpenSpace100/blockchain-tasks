@@ -356,6 +356,11 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 ### English
 [Week 6 Day 4 The bitcoin metaphorical bridge](https://docs.google.com/document/d/14pa84nFYMg8i8MVnm4YD0h3Gbm725RoAs82lUW35x-Q/edit?usp=sharing)
 
+### Tech
+
+
+课件： https://img.learnblockchain.cn/pdf/Chainlink_CCIP.pdf
+
 ## Day5
 ### English
 [Week 6 Day 5 Bitcoin break out](https://docs.google.com/document/d/15vXh3eTm-CO45GkOBECR0K3x5hbQPjoR082DjfWR9zw/edit?usp=sharing)
