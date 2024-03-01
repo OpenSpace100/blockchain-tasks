@@ -363,6 +363,7 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 答疑补充： https://drive.google.com/file/d/1BTcnDpSgL8YiKzXtreeAtnO9BWEFdM3E/view?usp=sharing 
 
 作业1： 质押 ETH 挖直接的发行的平台币 ，函数有：stake、unstake、pendingEarn 
+
 作业2： 在之前 NFTMarket 用 Token 挂单的价格上， 通过从 ChainLink 获取 ETH 的 价格 和 从 Uniswap 获取的 Token 价格， 在前端现实 NFT 美元价格。 
 
 ## Day5
