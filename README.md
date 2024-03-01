@@ -362,6 +362,9 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 课件： https://img.learnblockchain.cn/pdf/Chainlink_CCIP.pdf
 答疑补充： https://drive.google.com/file/d/1BTcnDpSgL8YiKzXtreeAtnO9BWEFdM3E/view?usp=sharing 
 
+作业1： 质押 ETH 挖直接的发行的平台币 ，函数有：stake、unstake、pendingEarn 
+作业2： 在之前 NFTMarket 用 Token 挂单的价格上， 通过从 ChainLink 获取 ETH 的 价格 和 从 Uniswap 获取的 Token 价格， 在前端现实 NFT 美元价格。 
+
 ## Day5
 ### English
 [Week 6 Day 5 Bitcoin break out](https://docs.google.com/document/d/15vXh3eTm-CO45GkOBECR0K3x5hbQPjoR082DjfWR9zw/edit?usp=sharing)
