@@ -377,3 +377,8 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 [作业 1](https://decert.me/quests/2a63cf95-43ec-42ee-975f-2b41510492cd)
 [作业 2](https://decert.me/quests/5725236b-4e24-4c28-be69-2509087157c4) 
 
+# Week7
+
+## DAY1
+### English
+[A Technical Analysis of Bitcoin Price](https://docs.google.com/document/d/11x9sPTbFA69UYngJ0QpB50HYdKNBh1iIANq6A97lJO8/edit?usp=sharing)
