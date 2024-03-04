@@ -382,3 +382,7 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 ## DAY1
 ### English
 [A Technical Analysis of Bitcoin Price](https://docs.google.com/document/d/11x9sPTbFA69UYngJ0QpB50HYdKNBh1iIANq6A97lJO8/edit?usp=sharing)
+
+## DAY2
+### English
+[A Technical Analysis of Bitcoin Price2](https://docs.google.com/document/d/1Uhp5tJNO10229aPo4OGr-vjrMMiKV3-5g-BdCwNuGpE/edit?usp=sharing)
