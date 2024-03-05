@@ -148,7 +148,7 @@ contract Example{
 
 ### Case4: dynamic data storage: mapping
 
-Value start slot =    `hash(abi.encodePacked(key,mapSlot=0))   ` 
+Value start slot =    `hash(abi.encode(key,mapSlot=0))   ` 
 
 ```
 contract StorageExample5 {
