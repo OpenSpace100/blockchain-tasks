@@ -296,6 +296,7 @@ https://docs.google.com/document/d/1UQ745NvJT22FHElV9YWNktCJcpSU7eMH2IsHj0tHL7s/
 
 ### TECH
 PDF: https://drive.google.com/file/d/1Vp0KwVAbPq-tTuvDGX5HNLd1zqMqhGzi/view?usp=sharing
+作业： https://decert.me/quests/b5368265-89b3-4058-8a57-a41bde625f5b
 
 ## DAY4
 
