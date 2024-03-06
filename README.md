@@ -412,3 +412,7 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 ## DAY3
 ### English
 [Ethereum in Focus](https://docs.google.com/document/d/1LSAzq62PVzttcVqDHNk4f7srtmXRSmLREU1mOglt6w8/edit?usp=sharing)
+
+## DAY4
+### English
+[Breaking News about Bitcoin: ATH](https://docs.google.com/document/d/1EV8arAkSsysclhBhlqL6o5hjqCmV2uS4AeK8xQD0lIk/edit?usp=sharing)
