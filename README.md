@@ -31,6 +31,7 @@ Task: https://github.com/OpenSpace100/blockchain-tasks/tree/main/simple-blockcha
 Video：https://meeting.tencent.com/v2/cloud-record/share?id=1e922724-a046-4b74-b843-92aac8210ab5&from=3
 Pwd：cQZJ
 
+Task: 模拟实现谁小区快链：https://decert.me/quests/ed2d8324-54b0-4b7a-9cee-5e97d3c30030
 
 
 ## DAY2
@@ -45,6 +46,9 @@ https://docs.google.com/document/d/15nx8_p8nOw9E5tShMorD3Wg_UB7ToeGO7rYWOMfH8Wk/
 PDF:
 
 https://drive.google.com/file/d/1bom8Lw60ume6A5ERf0-yIdqBmLf3iVEo/view?usp=sharing
+
+Task: 
+创建和部署第一个智能合约：https://decert.me/quests/ffadfacf-91cf-4f69-bea3-12226bb8ecca
 
 ## DAY3
 ### English
@@ -61,14 +65,24 @@ https://docs.google.com/document/d/1rINFFkJrcttiILK9H7IimIzuAHzRXCW1I7PFrSVjC_A/
 PDF: https://drive.google.com/file/d/10BeY5zdTOkZT7n3oQhhM9_ZhSoq8z2s-/view?usp=sharing
 Code: solidity_sample_code
 
+Task: 用 Solidity 编写 Bank 智能合约： https://decert.me/quests/c43324bc-0220-4e81-b533-668fa644c1c3
+
 ## DAY4 
 ### Tech
 PDF: https://drive.google.com/file/d/1iJLz_gNwgLyBo1UBiSDmAzw8Jhn7jqkM/view?usp=sharing
 Code: solidity_sample_code
 
+Task: 用 Solidity 编写 BigBank 智能合约： https://decert.me/quests/d0600476-7ce8-4648-a1d2-58f15ebac73f 
+
 ## DAY5
 
 PDF: https://drive.google.com/file/d/1G5dIKCdP7_TpaXKf1tdzAfcDxW5ndhZO/view?usp=sharing
+
+作业：
+编写 ERC20 合约 https://decert.me/challenge/aa45f136-27a3-4bc9-b4f7-15308e1e0daa 
+
+编写 Token Bank: https://decert.me/quests/eeb9f7d8-6fd0-4c38-b09c-75a29bd53af3
+
 
 # Week2
 
@@ -88,7 +102,9 @@ Code: w2_code
 
 PDF: https://drive.google.com/file/d/1FoNvXZTkVCwCOxkGbROvXhXUEmH86M8G/view?usp=sharing
 
+作业1：用Token 购买 NFT(有两个题) https://decert.me/quests/5f11aa15-b101-480b-91b5-4888b9aafdbb
 
+作业2: Token Hook 应用，在 Hook 中存款和购买 NFT（有3 个题） ： https://decert.me/quests/96c5b386-9148-4723-bfde-b9ea71b57ec6
 
 ## DAY2
 ### English
@@ -102,6 +118,8 @@ ppt/01.WhatIsABI.md
 ppt/IntroductionFoundry.md 
 
 ppt/WhatIsEvent.md
+
+作业：[利用ABI逆向解码交易数据](https://decert.me/quests/0ba0f6e3-2b87-4a9b-b3aa-ae5f323459e1)  
 
 
 ## DAY3
@@ -192,7 +210,10 @@ PDF:  https://drive.google.com/file/d/1AVJHrS69iokc19Y6aexe-DTtUwlk9_LQ/view?usp
 
 [w3_permit 前端 Code](https://github.com/OpenSpace100/viemtutorial)
 
-作业 1  铭文工厂： https://decert.me/quests/75782f22-edb8-4e82-9b68-0a4f46fcaadd
+作业1:
+铭文工厂： https://decert.me/quests/75782f22-edb8-4e82-9b68-0a4f46fcaadd
+作业 2：
+签名用用：https://decert.me/quests/fc66ef6c-35db-4ee7-b11d-c3b2d3fa356a
 
 
 
