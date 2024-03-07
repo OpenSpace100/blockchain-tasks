@@ -420,3 +420,7 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 ### 问题
 
 https://github.com/OpenSpace100/blockchain-tasks/blob/main/%E8%AF%BE%E7%A8%8B%E5%9B%9E%E9%A1%BE%E6%8F%90%E9%97%AE.md
+
+## DAY5
+### English
+[Bitcoin Comments: a real lack of retail dollars coming 来自散户的钱很少](https://docs.google.com/document/d/1E9KBMKVeGiM3eMX9BQqtIIvqvdgpY5lpCJcg_2g1WPs/edit?usp=sharing)
