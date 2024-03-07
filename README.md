@@ -416,3 +416,7 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 ## DAY4
 ### English
 [Breaking News about Bitcoin: ATH](https://docs.google.com/document/d/1EV8arAkSsysclhBhlqL6o5hjqCmV2uS4AeK8xQD0lIk/edit?usp=sharing)
+
+### 问题
+
+https://github.com/OpenSpace100/blockchain-tasks/blob/main/%E8%AF%BE%E7%A8%8B%E5%9B%9E%E9%A1%BE%E6%8F%90%E9%97%AE.md
