@@ -250,6 +250,8 @@ https://docs.google.com/document/d/149xNIpESAegwgnGengg-iu-f3yuFaRcqp9vKs4KDXVo/
 
 PDF: https://drive.google.com/file/d/19NZSCWy1i_yEkHS2wtOoyZW8rxmOMIep/view?usp=sharing
 
+作业：[可升级NFT Market 合约](https://decert.me/quests/ddbdd3c4-a633-49d7-adf9-34a6292ce3a8)
+
 ## DAY2
 ### English
 Week4Day2 Crypto News 领读
@@ -424,6 +426,9 @@ https://github.com/OpenSpace100/blockchain-tasks/blob/main/%E8%AF%BE%E7%A8%8B%E5
 ## DAY5
 ### English
 [Bitcoin Comments: a real lack of retail dollars coming 来自散户的钱很少](https://docs.google.com/document/d/1E9KBMKVeGiM3eMX9BQqtIIvqvdgpY5lpCJcg_2g1WPs/edit?usp=sharing)
+
+
+https://decert.me/quests/ddbdd3c4-a633-49d7-adf9-34a6292ce3a8
 
 
 
