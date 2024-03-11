@@ -424,3 +424,9 @@ https://github.com/OpenSpace100/blockchain-tasks/blob/main/%E8%AF%BE%E7%A8%8B%E5
 ## DAY5
 ### English
 [Bitcoin Comments: a real lack of retail dollars coming 来自散户的钱很少](https://docs.google.com/document/d/1E9KBMKVeGiM3eMX9BQqtIIvqvdgpY5lpCJcg_2g1WPs/edit?usp=sharing)
+
+
+
+## Week8 
+### Tech
+课件： https://drive.google.com/file/d/15WkTrQbVk46G8gblxM1mwsdss6fJFGEH/view?usp=sharing
