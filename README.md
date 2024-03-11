@@ -119,7 +119,7 @@ ppt/IntroductionFoundry.md
 
 ppt/WhatIsEvent.md
 
-作业：[利用ABI逆向解码交易数据](https://decert.me/quests/0ba0f6e3-2b87-4a9b-b3aa-ae5f323459e1)  
+作业：[利用ABI逆向解码交易数据](https://decert.me/quests/0ba0f6e3-2b87-4a9b-b3aa-ae5f323459e1) ，完成[挑战](https://decert.me/quests/0ba0f6e3-2b87-4a9b-b3aa-ae5f323459e1)
 
 
 ## DAY3
@@ -143,6 +143,8 @@ ppt/codes/BankTest.sol
 
 3. 测试  transferWithCallbak
 
+4. [完成 Foundry 基础知识挑战](https://decert.me/quests/3bca8f1f-df6b-469b-941e-79388ee280c6)
+
 
 
 ## DAY4
@@ -157,6 +159,7 @@ Solidity Interview Questions https://docs.google.com/document/d/1vmQWBX2j1p7BvqJ
 1. 使用Fuzz测试 Bank 合约的存款和取款功能
 2. 使用Fuzz测试 NFTMaket 合约的 transferWithCallbak
 3. 注册 [Dune](https://dune.com/home) 账号 
+4. 完成 [Foundry 测试挑战](https://decert.me/quests/4578ff5b-4dcb-4c28-8b5f-7456ed1ab0a4)
 
 
 ## DAY5
@@ -174,6 +177,7 @@ ETHGlobal Waterloo Demos https://docs.google.com/document/d/1zH0HDI0Fpym8gFfTAtb
 2. 可上架NFT
 3. 列表显示已经上架的NFT
 4. 可买入指定NFT
+5. 完成[利用Web3Modal通过JS连接到MetaMask](https://decert.me/quests/aebe24be-0bec-4c6c-bef1-22eb08817621)挑战
 
 
 # WEEK3
@@ -229,7 +233,7 @@ https://docs.google.com/spreadsheets/d/13wYPUcZgXYl803rAvoTYL9Q9K3X1QZIO-3Le4DPA
 ### Tech
 [PPT](./ppt/StateLayout.md)
 
-在NFT Market合约中使用Slot模式读取和修改Owner地址
+在NFT Market合约中使用Slot模式读取和修改Owner地址，完成[使用Solidity内联汇编修改合约Owner地址](https://decert.me/quests/163c68ab-8adf-4377-a1c2-b5d0132edc69)挑战
 
 
 ## DAY5
@@ -269,6 +273,7 @@ Create [KODA NFT Token](https://etherscan.io/token/0xe012baf811cf9c05c408e879c39
 1. total holders
 2. holder list
 3. option: Buy/Sell trades from OpenSean and Blur.
+4. 完成 [创建Dune交易数据面板](https://decert.me/quests/2061bded-750c-40f7-a13c-28334b26f391)挑战。
 
 homework2: Use RainbowKit on your NFT Market ! 
 
@@ -350,7 +355,10 @@ https://docs.google.com/document/d/1oz6BhrC5f5z9aTOLEJ9ahA4vHShqUXViIJVHZyMPLiA/
 
 Tech:  [DeFi-StudyCase-Uniswap](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Uniswap.pdf)
 
-作业：部署自己的UniswapV2 和 让NFTMarket合约支持任意Token买NFT。
+作业：
+
+1. 部署自己的UniswapV2 和 让NFTMarket合约支持任意Token买NFT。
+2. 完成[用Solidity从Uniswap中兑换ETH](https://decert.me/quests/bbb934a6-480d-4c76-a964-3f993e029c67)挑战
 
 ### English
 [Week 6 Day 1 BitVM 2](https://docs.google.com/document/d/1bWhm9_lrO11IHUtyu9R9Er5et6FHEOe7sec8fws70IE/edit?usp=sharing)
@@ -359,7 +367,12 @@ Tech:  [DeFi-StudyCase-Uniswap](https://github.com/OpenSpace100/blockchain-tasks
 
 Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Compound.pdf)
 
-作业：阅读扩展资料 https://learnblockchain.cn/article/5036 后给NFTMarket赋能，支持买入NFT收入交易手续费，手续费分发给质押ETH到NFTMarket的质押者。
+作业：
+
+1. 阅读扩展资料 https://learnblockchain.cn/article/5036 
+2. 给NFTMarket赋能: 支持买入NFT收入交易手续费，手续费分发给质押ETH到NFTMarket的质押者。
+3. 完成[用Solidity编写ETH质押挖矿合约](https://decert.me/quests/e76599d5-a30c-4678-ba92-fe43c56df1db)挑战
+
 
 ### English
 [Week 6 Day 2 The Bitcoin Rollup Pitch](https://docs.google.com/document/d/1oz6BhrC5f5z9aTOLEJ9ahA4vHShqUXViIJVHZyMPLiA/edit?usp=sharing)
@@ -386,9 +399,11 @@ Tech : [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-
 课件： https://img.learnblockchain.cn/pdf/Chainlink_CCIP.pdf
 答疑补充： https://drive.google.com/file/d/1BTcnDpSgL8YiKzXtreeAtnO9BWEFdM3E/view?usp=sharing 
 
-作业1： 质押 ETH 挖直接的发行的平台币 ，函数有：stake、unstake、pendingEarn 
+作业
 
-作业2： 在之前 NFTMarket 用 Token 挂单的价格上， 通过从 ChainLink 获取 ETH 的 价格 和 从 Uniswap 获取的 Token 价格， 在前端现实 NFT 美元价格。 
+1. 质押 ETH 挖直接的发行的平台币 ，函数有：stake、unstake、pendingEarn 
+2. 在之前 NFTMarket 用 Token 挂单的价格上， 通过从 ChainLink 获取 ETH 的 价格 和 从 Uniswap 获取的 Token 价格， 在前端现实 NFT 美元价格。 
+3. 完成[从Oracle(ChainLink)读取ETH价格](https://decert.me/quests/48e601a9-4870-452f-b474-eb47207922dc)挑战
 
 ## Day5
 ### English
@@ -435,3 +450,5 @@ https://decert.me/quests/ddbdd3c4-a633-49d7-adf9-34a6292ce3a8
 ## Week8 
 ### Tech
 课件： https://drive.google.com/file/d/15WkTrQbVk46G8gblxM1mwsdss6fJFGEH/view?usp=sharing
+
+
