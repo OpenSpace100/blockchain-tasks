@@ -72,4 +72,3 @@
 | W7D3 | [Ethereum in Focus](https://docs.google.com/document/d/1LSAzq62PVzttcVqDHNk4f7srtmXRSmLREU1mOglt6w8/edit?usp=sharing) |
 | W7D4 | [Breaking News about Bitcoin: ATH](https://docs.google.com/document/d/1EV8arAkSsysclhBhlqL6o5hjqCmV2uS4AeK8xQD0lIk/edit?usp=sharing) |
 | W7D5 | [Bitcoin Comments: a real lack of retail dollars coming 来自散户的钱很少](https://docs.google.com/document/d/1E9KBMKVeGiM3eMX9BQqtIIvqvdgpY5lpCJcg_2g1WPs/edit?usp=sharing) |
-
