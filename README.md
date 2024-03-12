@@ -316,6 +316,8 @@ https://docs.google.com/document/d/1yI-UP_mDdCvcvv7fWRb03jtY0CeCzpNBkAZECBR4RAQ/
 ## Tech:
 PDF： https://drive.google.com/file/d/1w40dpGf3XRzVwh9-0viw7aCtXJp9A2JV/view?usp=sharing
 
+作业： [多签钱包](https://decert.me/quests/f832d7a2-2806-4ad9-8560-a27ad8570c6f) 
+
 ## DAY2
 
 ### English
