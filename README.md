@@ -289,6 +289,12 @@ https://docs.google.com/document/d/1RhJOvUVGOZ0WNaig5kPfiPmsQQFLBSCFwQiNIsC0ebA/
 
 PDF: https://drive.google.com/file/d/1s1V9B9HWCsFJ3aWiSmm-omdel84R4M0-/view?usp=sharing
 
+作业：
+
+[链表](https://decert.me/quests/753d5050-e5e4-4a0d-8ad9-9ecd7e0e0788) 
+
+[组合使用 MerkleTree 白名单、 Permit 授权 及 Multicall](https://decert.me/quests/faa435a5-f462-4f92-a209-3a7e8fdc4d81)
+
 ## DAY4
 ### English
 Week4Day4 Crypto News 领读
