@@ -34,7 +34,7 @@
 | W6D4 | [CCIP](https://img.learnblockchain.cn/pdf/Chainlink_CCIP.pdf) <br/>[答疑补充](https://drive.google.com/file/d/1BTcnDpSgL8YiKzXtreeAtnO9BWEFdM3E/view?usp=sharing)<br/> | 1. 质押 ETH 挖直接的发行的平台币 ，函数有：stake、unstake、pendingEarn <br/>2. 在之前 NFTMarket 用 Token 挂单的价格上， 通过从 ChainLink 获取 ETH 的 价格 和 从 Uniswap 获取的 Token 价格， 在前端现实 NFT 美元价格。 <br/>3. 完成[从Oracle(ChainLink)读取ETH价格](https://decert.me/quests/48e601a9-4870-452f-b474-eb47207922dc)挑战 |
 | W6D5 | [PPT](https://drive.google.com/file/d/1nPvNoibjmbRvcPxJK0a0MT07vPCYe3ff/view?usp=sharing)<br/><br/> | [模拟闪电兑换套利](https://decert.me/quests/2a63cf95-43ec-42ee-975f-2b41510492cd)<br/>[设计一个看涨期权 Token](https://decert.me/quests/5725236b-4e24-4c28-be69-2509087157c4) <br/> |
 | W7D1 | [FAQ](https://github.com/OpenSpace100/blockchain-tasks/blob/main/%E8%AF%BE%E7%A8%8B%E5%9B%9E%E9%A1%BE%E6%8F%90%E9%97%AE.md) |                                                              |
-| W8D1 | [DAO 治理](https://drive.google.com/file/d/15WkTrQbVk46G8gblxM1mwsdss6fJFGEH/view?usp=sharing) | •实现一个可以可计票的 Token<br/>• 实现一个通过 DAO 管理资金的 Bank:<br/>• > 管理员可以从Bank合约中提取资金withdraw()<br/>• > 治理 Gov 合约作为管理员, Gov 合约使用 Token 投票进行治理<br/>• > 通过发起提案从Bank合约资金 |
+| W8D1 | [DAO 治理](https://drive.google.com/file/d/15WkTrQbVk46G8gblxM1mwsdss6fJFGEH/view?usp=sharing) |  [Token 投票治理 管理 Bank 资金](https://decert.me/quests/4cbe2544-6848-4881-b2f5-c4f291241621) |
 
 
 
