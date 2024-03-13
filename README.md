@@ -27,7 +27,7 @@
 | W4D5 |                                                              |                                                              |
 | W5D1 | [PDF](https://drive.google.com/file/d/1w40dpGf3XRzVwh9-0viw7aCtXJp9A2JV/view?usp=sharing) | [多签钱包](https://decert.me/quests/f832d7a2-2806-4ad9-8560-a27ad8570c6f) |
 | W5D2 | [PDF](https://drive.google.com/file/d/1Vp0KwVAbPq-tTuvDGX5HNLd1zqMqhGzi/view?usp=sharing)<br/> | [设法取出预先部署的 Vault 合约内的所有资金](https://decert.me/quests/b5368265-89b3-4058-8a57-a41bde625f5b) |
-| W5D4 | [PDF](https://drive.google.com/file/d/1lV6vmShbzWAnwgxfntQ8k-MGzBlK6XfK/view?usp=sharing) | 修改 Bank 合约:<br/>• 用户可以通过 deposit 进行存款(先Approve) — 之前已经实现<br/>• 当存款超过 x 时,转移一半的存款的到指定的地址,如Owner. |
+| W5D4 | [PDF](https://drive.google.com/file/d/1lV6vmShbzWAnwgxfntQ8k-MGzBlK6XfK/view?usp=sharing) | [自动化任务转移存款](https://decert.me/quests/072fccb4-a976-4cf9-933c-c4ef14e0f6eb)  |
 | W6D1 | [DeFi-StudyCase-Uniswap](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Uniswap.pdf) | 1. 部署自己的 Dex<br />2. NFTMarket 支持使用任意Token购买    |
 | W6D2 | [DeFi-StudyCase-Compound.pdf](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-Compound.pdf) | 1. 阅读扩展资料 https://learnblockchain.cn/article/5036 <br/>2. 给NFTMarket赋能: 支持买入NFT收入交易手续费，手续费分发给质押ETH到NFTMarket的质押者。<br/>3. 完成[用Solidity编写ETH质押挖矿合约](https://decert.me/quests/e76599d5-a30c-4678-ba92-fe43c56df1db)挑战 |
 | W6D3 | [DeFi-StudyCase-DAI.pdf](https://github.com/OpenSpace100/blockchain-tasks/blob/main/ppt/DeFi-StudyCase-DAI.pdf) | [为Fair Launch 提供流动性](https://decert.me/challenge/5bdbdf3c-d357-45d5-8ce4-34ba6aeaf5a0) |
