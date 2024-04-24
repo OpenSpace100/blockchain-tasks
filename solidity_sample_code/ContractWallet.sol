@@ -30,9 +30,11 @@ contract ContractWallet {
         uint _value,
         bytes memory _data
     ) public onlyOwner {
+
         (bool success, ) = _to.call{value: _value}(
             _data
         );
+        
         require(success, "tx failed");
 
         emit ExecuteTransaction(_to, _value, _data);

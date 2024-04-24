@@ -18,12 +18,12 @@ const users = [
   const merkleTree = new MerkleTree(elements, keccak256, { sort: true });
 
   const root = merkleTree.getHexRoot();
-  console.log(root);
+  console.log("root:" + root);
 
 
   const leaf = elements[3];
   const proof = merkleTree.getHexProof(leaf);
-  console.log(proof);
+  console.log("proof:" +proof);
 
   // 0xa8532aAa27E9f7c3a96d754674c99F1E2f824800, 30, [0xd24d002c88a75771fc4516ed00b4f3decb98511eb1f7b968898c2f454e34ba23,0x4e48d103859ea17962bdf670d374debec88b8d5f0c1b6933daa9eee9c7f4365b]
 

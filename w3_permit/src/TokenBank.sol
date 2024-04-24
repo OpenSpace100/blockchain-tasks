@@ -29,6 +29,7 @@ contract TokenBank  {
         return true;
     }
 
+    // approve     
     function deposit(address user, uint amount) public {
         IERC20(token).transferFrom(msg.sender, address(this), amount);
         deposited[user] += amount;
@@ -36,7 +37,7 @@ contract TokenBank  {
 
 
     function permitDeposit(address user, uint amount, uint deadline, uint8 v, bytes32 r, bytes32 s) external {
-        IERC20Permit(token).permit(msg.sender, address(this), amount, deadline, v, r, s);
+        IERC20Permit(token).permit(msg.sender, address(this), amount, deadline, v, r, s);   // _approve
         deposit(user, amount);
     }
 
