@@ -57,13 +57,13 @@ contract CounterProxy  {
     }
 
     // 分别代理到 Counter
-    function delegateAdd(uint256 n) external {
+    function add(uint256 n) external {
         bytes memory callData = abi.encodeWithSignature("add(uint256)", n);
         (bool ok,) = address(impl).delegatecall(callData);
         if(!ok) revert("Delegate call failed");
     }
 
-    function delegateGet() external returns(uint256) {
+    function get() external returns(uint256) {
         bytes memory callData = abi.encodeWithSignature("get()");
         (bool ok, bytes memory retVal) = address(impl).delegatecall(callData);
 
