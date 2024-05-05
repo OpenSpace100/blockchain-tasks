@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Counter {
     // address public impl;
-    uint private counter;
+    uint public counter;
 
     function add(uint256 i) public {
         counter += 1;
@@ -12,11 +12,28 @@ contract Counter {
     function get() public view returns(uint) {
         return counter;
     }
+
+    function uintToBytes32(uint i) external view returns (bytes32 data) {
+        data = bytes32(i);
+    }
+
+    function read(bytes32 slot) external  view returns(bytes32 data){
+            assembly {
+                data := sload(slot) // load from store    
+            }
+    }
+
+    function write(bytes32 slot,uint256 value) external {
+            assembly{
+                sstore(slot,value)
+            }
+    }
+
 }
 
 contract CounterV2 {
     // address public impl;
-    uint private counter;
+    uint public counter;
 
     function add(uint256 i) public {
         counter += i;
@@ -28,10 +45,11 @@ contract CounterV2 {
 }
 
 contract CounterProxy  {
-    address public impl;   // 2
+    address public impl;   // impl + 2
     uint public counter;
 
-    constructor() {
+    constructor(address _impl) {
+        impl = _impl;
     }
 
     function upgradeTo(address _impl) public {
@@ -53,5 +71,6 @@ contract CounterProxy  {
 
         return abi.decode(retVal, (uint256));
     }
+
 
 }
