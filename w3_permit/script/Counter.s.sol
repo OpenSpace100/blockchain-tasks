@@ -12,8 +12,8 @@ contract CounterScript is BaseScript {
 
     function run() public broadcaster {
 
-      Options memory opts;
-    //   opts.unsafeSkipAllChecks = true;
+        Options memory opts;
+        opts.unsafeSkipAllChecks = true;
 
         address proxy = Upgrades.deployTransparentProxy(
             "Counter.sol",
@@ -21,6 +21,8 @@ contract CounterScript is BaseScript {
             "",         // abi.encodeCall(MyContract.initialize, ("arguments for the initialize function")
             opts
             );
+
+        saveContract("local", "Counter", proxy);
 
         console.log("Counter deployed on %s", address(proxy));
     }

@@ -6,7 +6,9 @@ libs = ["lib"]
 solc = "0.8.21"
 
 build_info = true
+ffi=true
 extra_output = ["storageLayout"]
+fs_permissions = [{ access = "read-write", path = "./output/local/"}]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
 
@@ -24,6 +26,7 @@ bracket_spacing = true
 goerli = "${GOERLI_RPC_URL}"
 local = "http://127.0.0.1:8545"
 mumbai = "${MUMBAI_RPC_URL}"
+
 
 
 
