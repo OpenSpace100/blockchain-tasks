@@ -91,10 +91,9 @@ value types: Booleans、number、address...
 ```solidity
 contract StorageExample {
     uint8  public a = 11; // 0
-    Entry d; // [1]=[age], [2]=ethBalance
     uint256 b=12; // 1
     uint256[2] c= [13,14]; // [2]=13,[3]=14  //. c[0]=13*2  // set store(2,26)
-    
+    Entry d; // [1]=[age], [2]=ethBalance
  
     
     struct Entry {
