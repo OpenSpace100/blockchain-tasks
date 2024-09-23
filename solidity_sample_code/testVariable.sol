@@ -1,9 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.0;  // 声明编译器版本: 
+// pragma solidity >=0.8.0;
+// pragma solidity >=0.8.0 <0.9.0;
 
-// 格式：变量类型 [可见性] [可变状态] 变量名 [赋值];
 
+// 定义变量格式：变量类型 [可见性] [可变状态] 变量名 [赋值];
+// 可见性： public / private / internal 
+// 可变状态: constant / immutable
 contract TestVariable{
     uint public counter;
 
@@ -16,7 +20,7 @@ contract TestVariable{
 
  
     function count() public {
-       uint256 a = 503;
+       uint a = 503;
        counter = a + 1;
     }
 
