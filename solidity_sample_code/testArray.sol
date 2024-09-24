@@ -1,26 +1,24 @@
 pragma solidity ^0.8.0;
 
-contract testStringBytes {
+contract testArray {
 
     bytes bs;
     bytes bs0 = "12abcd";
     bytes bs1 = "abc\x22\x22";   // 十六进制数
-    bytes bs2 = "Tiny\u718A";   // 718A为汉字“熊”的Unicode编码值
-
-
-    string str1 = "TinyXiong\u718A";
+    string str1 = "TinyXiong";
 
     string name;
     function setName(string calldata _name) public {
         name = _name;
 	}
 
-    // storage 位置
+    // 定长 、storage 位置 
     uint[10] tens; 
-    uint[] public numbers; 
+
+    //  变长 
+    // uint[] public numbers; 
+    uint[] public numbers = [1, 2, 5, 5, 6 ,6 , 9, 19, 3, 10, 12, 23]; 
     uint[] public arr1 = new uint[](1);
-    uint public total;
-    uint calced;
 
 
     function modifyOnTens(uint x) public {
@@ -47,7 +45,6 @@ contract testStringBytes {
     }
 
 	function test(uint len) public {
-
         // 内存 位置
         string[4] memory adaArr = ["This", "is", "an", "array"];
         uint[] memory c = new uint[](len);
@@ -56,20 +53,36 @@ contract testStringBytes {
         
 	}
 
+
+
+    uint public total;
+
+
+     // gas issue    58388
+    function dosome() public {
+        uint leng = numbers.length;
+        for (uint i = 0; i < leng; i++) {
+            // do...
+            total += numbers[i];
+        }
+    }
+
+    // 
+    function dosome2(uint start, uint len) public {
+        for (uint i = start; i <  start + len; i++) {
+            // do...
+            total += numbers[i];
+        }
+    }
+
+    uint calced;
+
     function sum(uint end) public {
         if (end > calced) {
             for (uint i = calced; i < end; i++) {
                 total += numbers[i];
             }
             calced = end;
-        }
-    }
-
-    // gas issue
-    function dosome(uint start, uint len) public {
-        uint leng = numbers.length;
-        for (uint i = start; i <  start + len; i++) {
-            // do...
         }
     }
 
@@ -86,19 +99,4 @@ contract testStringBytes {
 }
 
 
-contract testStruct{
-
-    struct Person {
-        address account;
-        bool gender;
-        uint8 age;
-    }
-
-    Person  person1 = Person(address(0x1), true, 18);
-
-    function person() external view returns (address account, bool gender, uint8 age) {
-      return (person1.account, person1.gender, person1.age);
-    }
-
-}
 
