@@ -1,17 +1,6 @@
 pragma solidity ^0.8.0;
 
 contract testArray {
-
-    bytes bs;
-    bytes bs0 = "12abcd";
-    bytes bs1 = "abc\x22\x22";   // 十六进制数
-    string str1 = "TinyXiong";
-
-    string name;
-    function setName(string calldata _name) public {
-        name = _name;
-	}
-
     // 定长 、storage 位置 
     uint[10] tens; 
 
@@ -53,10 +42,17 @@ contract testArray {
         
 	}
 
-
-
     uint public total;
+    uint calced;
 
+    function sum(uint end) public {
+        if (end > calced) {
+            for (uint i = calced; i < end; i++) {
+                total += numbers[i];
+            }
+            calced = end;
+        }
+    }
 
      // gas issue    58388
     function dosome() public {
@@ -75,28 +71,6 @@ contract testArray {
         }
     }
 
-    uint calced;
 
-    function sum(uint end) public {
-        if (end > calced) {
-            for (uint i = calced; i < end; i++) {
-                total += numbers[i];
-            }
-            calced = end;
-        }
-    }
-
-    // 移除元素推荐操作
-    function remove(uint index) public {
-        uint len = numbers.length;
-        if (index == len - 1) {
-            numbers.pop();
-        } else {
-            numbers[index] = numbers[len - 1];
-            numbers.pop();
-        }
-    }
 }
-
-
 
