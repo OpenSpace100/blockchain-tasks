@@ -27,6 +27,22 @@ contract Bank {
         _;
         locked = 0;
     }
+
+    // 使用瞬时存储方案
+    modifier nonreentrant {
+        assembly {
+            if tload(0) { revert(0, 0) }
+            tstore(0, 1)
+        }
+        _;
+
+        // 解锁防护，使模式可组合。
+        // 函数退出后，即使在同一交易中也可以再次调用。
+        assembly {
+            tstore(0, 0)
+        }
+    }
+
 }
 
 contract AttackBank {
