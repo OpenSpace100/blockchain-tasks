@@ -35,9 +35,9 @@ contract TestCallFunc {
 
     }
 
-        function callThirdFunc(callee c) public {
-            // c.g(10);   最常见
-            c.g{ gas: 60000 }(10);
-        }
+    function callThirdFunc(callee c) public pure {
+        c.g(10);  // 最常见
+        // c.g{ gas: 60000 }(10);
+    }
 
 }
