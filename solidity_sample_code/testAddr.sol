@@ -6,7 +6,7 @@ contract testAddr {
 
   }
 
-   // 如果合约的余额大于等于10，则给x转10 wei
+   // 如果合约的余额大于等于10，则给x转10 ether
 	function testTrasfer(address payable x) public {
 	address myAddress = address(this);
 
