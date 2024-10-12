@@ -52,11 +52,16 @@ contract trycatch {
         catch Error(string memory reason) { //  catch revert 处理所有带有原因字符串的回滚
             errMsg = reason;
             console.log("error occured with this reason: ", reason);
-        } catch (bytes memory lowLevelData) {  // 处理 自定义错误和没有消息字符串的错误。
+        } catch (bytes memory lowLevelData) {  // 处理自定义错误和没有消息字符串的错误。
             if (lowLevelData.length == 0) {
                 console.log("revert without a message occured");
             } 
             errBytes = lowLevelData;
+
+            // 可以使用类似的方式来匹配自定义的错误
+            // if (  bytes4(abi.encodeWithSignature("Zero()")) ==  bytes4(lowLevelData) )
+     
+
         }
         // 对错误数据不感兴趣，也可以使用 catch{ } 块， 将捕获来自被调用合约的任何错误
 
