@@ -21,13 +21,13 @@ contract trycatch {
         }
 
         if (x == 2) {
-            // revert without a message
-            revert();
+            uint256 b = 0;
+            x / b;   // panic
         } 
 
         if (x == 3) {
-            uint256 b = 0;
-            x / b;   // panic
+            // revert without a message
+            revert();
         } 
 
         if (x == 4) { // if gas = 50000 will out-of-gas
@@ -86,7 +86,7 @@ contract trycatch {
 
             }
         } else if (cases == 2 ) { // throw panic but only catch reason error
-            try this.myFunc(3) {  // throw panic
+            try this.myFunc(2) {  // throw panic
             } catch Error(string memory reason) {   // catch reason error
             }
         }  
