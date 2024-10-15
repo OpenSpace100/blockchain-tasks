@@ -17,7 +17,7 @@ contract trycatch {
 
         if (x == 1) {
             // revert  a message
-            revert("error when 2 ");
+            revert("error when 1 ");
         }
 
         if (x == 2) {
@@ -71,9 +71,9 @@ contract trycatch {
     }
 
 
-    function cantCatch(uint cases) public {
-        if (cases ==0 ) {
-            try ICounter(address(0x01)).count() {
+    function cantCatch(address addr, uint cases) public {
+        if (cases == 0 ) {
+            try ICounter(addr).count() {
             } catch { 
 
             }
