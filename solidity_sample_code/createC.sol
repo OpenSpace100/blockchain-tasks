@@ -1,5 +1,8 @@
 pragma solidity  >=0.8.0;
 
+
+import { CREATE3 } from "https://github.com/transmissions11/solmate/blob/main/src/utils/CREATE3.sol";
+
 contract C {
     function f(uint a) private pure returns (uint b) { return a + 1; }
     function setData(uint a) internal { data = a; }
@@ -9,19 +12,26 @@ contract C {
 
 contract CreateC {
 
-    function createContract1() public returns (address) {
+    function createContract() public returns (address) {
         C  c = new C();
         return address(c);
     }
 
-    function createContract2(address impl) public returns (address) {
+    function createMinContract(address impl) public returns (address) {
         return createClone(impl);
     }
 
-
-    function createContract3(uint _salt) public returns (address) {
+    function create2Contract(uint _salt) public returns (address) {
         C c = new C{salt: keccak256(abi.encode(_salt))}();
         return address(c);
+    }
+
+    function create3Contract(uint _salt, bytes memory creationCode ) external returns (address deployed) {
+        deployed = CREATE3.deploy(
+            keccak256(abi.encode(_salt)), 
+            creationCode,
+            0
+    );
     }
 
     function getCreate2Address(uint _salt) public view returns (address) {
