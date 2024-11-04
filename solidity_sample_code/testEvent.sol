@@ -13,3 +13,5 @@ contract testDeposit {
         emit Deposit(msg.sender, value);
     }
 }
+
+// web3.eth.getTransactionReceipt('0x....').then(console.log);
