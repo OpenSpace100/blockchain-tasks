@@ -47,7 +47,7 @@ contract CounterV2 {
 
 }
 
-contract CounterProxy  {
+contract CounterImpl  {
     uint public counter;
 
     // 
