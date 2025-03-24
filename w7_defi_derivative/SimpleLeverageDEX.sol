@@ -2,7 +2,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-// 极简的杠杆 DEX 
+// 极简的杠杆 DEX 实现， 完成 TODO 代码部分
 contract SimpleLeverageDEX {
 
     uint public vK;  // 100000 
@@ -25,40 +25,6 @@ contract SimpleLeverageDEX {
 
     }
 
-    // 不考虑手续费
-    function vAmmSwapByInput(uint inputvEth, uint inputvUSDC) internal returns (uint output) {
-        if (inputvEth > 0 && inputvUSDC == 0) { // 输入为 ETH
-            vETHAmount += inputvEth;
-            uint vUSDCAmountlast = vUSDCAmount;
-            vUSDCAmount = vK / vETHAmount;
-            output = vUSDCAmountlast - vUSDCAmount;
-        } else if (inputvEth == 0 && inputvUSDC > 0) {
-            vUSDCAmount += inputvUSDC;
-            uint vEthAmountlast = vETHAmount;
-            vETHAmount = vK / vUSDCAmount;
-            output = vEthAmountlast - vETHAmount;
-        } else {
-            revert("invalid input");
-        }
-    }
-
-
-    function vAmmSwapByOutput(uint outputvEth, uint outputvUSDC) internal returns (uint input) {
-        if (outputvEth > 0 && outputvUSDC == 0) {
-            vETHAmount -= outputvEth;
-            uint vUSDCAmountlast = vUSDCAmount;
-            vUSDCAmount = vK / vETHAmount;
-            return vUSDCAmount - vUSDCAmountlast;
-        } else if (outputvEth == 0 && outputvUSDC > 0) {
-            vUSDCAmount -= outputvUSDC;
-            uint vEthAmountlast = vETHAmount;
-            vETHAmount = vK / vUSDCAmount;
-            return vETHAmount - vEthAmountlast;
-        } else {
-            revert("invalid outputvEth");
-        }
-    }
-
 
     // 开启杠杆头寸
     function openPosition(uint256 _margin, uint level, bool long) external {
@@ -73,26 +39,25 @@ contract SimpleLeverageDEX {
         pos.margin = _margin;
         pos.borrowed = borrowAmount;
 
+        // TODO:
         if (long) {
-            pos.position = int(vAmmSwapByInput(0, amount));
-
+            pos.position =  
         } else {
-            pos.position = -1 * int(vAmmSwapByOutput(0, amount)); // 
+            pos.position =  
         }
-        
         
     }
 
-    // 关闭头寸并结算
-    // 不考虑协议亏损
+    // 关闭头寸并结算, 不考虑协议亏损
     function closePosition() external {
         // TODO:
     }
 
-    // 清算头寸
+    // 清算头寸， 清算的逻辑和关闭头寸类似，不过利润由清算用户获取
+    // 注意： 清算人不能是自己，同时设置一个清算条件，例如亏损大于保证金的 80%
     function liquidatePosition(address _user) external {
         PositionInfo memory position = positions[_user];
-        require(position.position > 0, "No open position");
+        require(position.position != 0, "No open position");
         int256 pnl = calculatePnL(_user);
 
         // TODO:
