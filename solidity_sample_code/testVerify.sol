@@ -9,6 +9,12 @@ import { MessageHashUtils } from "https://github.com/OpenZeppelin/openzeppelin-c
 
 contract TestVerify {
 
+    function getHash(bytes memory message) public pure returns (bytes32) {
+        bytes32 hash = MessageHashUtils.toEthSignedMessageHash(message);
+        return hash;
+    }
+
+
     // https://cn.etherscan.com/verifySig/34423
     // siger: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
     // message: hello world -> 0x68656c6c6f20776f726c64
@@ -18,5 +24,6 @@ contract TestVerify {
         return ECDSA.recover(hash, signature);
     }
 
+    
 
 }
