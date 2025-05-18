@@ -7,21 +7,20 @@ pragma solidity ^0.8.26;
 // Transient storage - data is cleared out after a transaction
 
 interface ITest {
+    function setX(uint x) external returns (uint256);
     function val() external view returns (uint256);
     function test() external;
 }
 
 contract Callback {
-    uint256 public val;
+    uint256 public v;
 
     fallback() external {
-        val = ITest(msg.sender).val();
+        // v = ITest(msg.sender).val();
+        ITest(msg.sender).setX(1);
     }
 
-    // 分别调用以下四个合约的 test 方法
-
-    //  TestStorage addr : gas  81163 38613
-    // TestTransientStorage addr :  36198  32978
+    // 分别调用以下两个合约的 test 方法
     //  ReentrancyGuard gas  78468
     //  ReentrancyGuardTransient 29991
     function test(address target) external {
@@ -29,71 +28,58 @@ contract Callback {
     }
 }
 
+// 对比两个合约的 Gas 
+//  TestStorage addr  
+// TestTransientStorage  
 contract TestStorage {
     uint256 public val;
 
-    // gas 27545
+    // gas 
     function test() public {
         val = 123;
-        bytes memory b = "";
-        msg.sender.call(b);
     }
 }
 
 contract TestTransientStorage {
-    bytes32 constant SLOT = 0;
-
-    // 25121
+    uint256 public transient val;
+    // gas 
     function test() public {
-        assembly {
-            tstore(SLOT, 321)
-        }
-        bytes memory b = "";
-        msg.sender.call(b);
-    }
-
-    function val() public view returns (uint256 v) {
-        assembly {
-            v := tload(SLOT)
-        }
+        val = 123;
     }
 }
 
 contract ReentrancyGuard {
-    bool private locked;
+    uint256 public val;
+    uint256 private locked = 1;
 
-    modifier lock() {
-        require(!locked);
-        locked = true;
+    modifier nonReentrant() {
+        require(locked == 1, "REENTRANCY");
+        locked = 2;
         _;
-        locked = false;
+        locked = 1;
     }
 
-    // 35313 gas
-    function test() public lock {
-        // Ignore call error
+    function setX(uint _x) public nonReentrant {
+        val = _x;
+        //    Ignore call error
         bytes memory b = "";
         msg.sender.call(b);
     }
 }
 
 contract ReentrancyGuardTransient {
-    bytes32 constant SLOT = 0;
-    uint public temp = 10;
+    uint256 public val;
+    uint256 private transient locked;
 
-    modifier lock() {
-        assembly {
-            if tload(SLOT) { revert(0, 0) }
-            tstore(SLOT, 1)
-        }
+    modifier nonReentrant() virtual {
+        require(locked == 0, "REENTRANCY");
+        locked = 1;
         _;
-        assembly {
-            tstore(SLOT, 0)
-        }
+        locked = 0;
     }
 
-    // 21887 gas
-    function test() external lock {
+    function setX(uint _x) external nonReentrant {
+        val = _x;
         // Ignore call error
         bytes memory b = "";
         msg.sender.call(b);
