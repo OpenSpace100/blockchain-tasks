@@ -34,7 +34,7 @@ contract Callback {
 contract TestStorage {
     uint256 public val;
 
-    // gas 
+    // gas  49818
     function test() public {
         val = 123;
     }
@@ -42,7 +42,7 @@ contract TestStorage {
 
 contract TestTransientStorage {
     uint256 public transient val;
-    // gas 
+    // gas  24518
     function test() public {
         val = 123;
     }
