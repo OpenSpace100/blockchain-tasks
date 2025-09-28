@@ -27,4 +27,14 @@ contract Caller {
         test.hello();
     }
 
+   // 如果合约的余额大于等于10，则给x转10 ether
+	function testTrasfer(address payable x) public {
+	    address myAddress = address(this);
+
+        if (myAddress.balance >= 10 ether) {
+            x.transfer(10 ether);  // 2300 gas
+            // (bool r, ) = x.call{value: 10 ether}(new bytes(0));
+            // require(r, "transfer error");
+        }
+	}
 }
