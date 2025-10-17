@@ -14,6 +14,7 @@ contract B is A {
     constructor() {
         b = 2;
     }
+    
 }
 
 

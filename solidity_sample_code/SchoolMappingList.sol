@@ -12,7 +12,7 @@ contract SchoolMappingList {
   }
   
   function addStudent(address student ) public {
-     require(!isStudent(student));
+    require(!isStudent(student));
 
     _nextStudents[student] = _nextStudents[GUARD];
     _nextStudents[GUARD] = student;
@@ -29,14 +29,14 @@ contract SchoolMappingList {
     listSize --;
   }
 
-  // function removeStudent(address student, address prevStudent) public {
-  //   require(isStudent(student));
-  //   require(_nextStudents[prevStudent] == student);
+  function removeStudent2(address student, address prevStudent) public {
+    require(isStudent(student));
+    require(_nextStudents[prevStudent] == student);
 
-  //   _nextStudents[prevStudent] = address(0);
-  //   listSize --;
-
-  // }
+    _nextStudents[prevStudent] = _nextStudents[student];
+    _nextStudents[student] = address(0);
+    listSize --;
+  }
 
   function _getPrevStudent(address student) internal view returns (address) {
     address currentAddress = GUARD;
