@@ -6,12 +6,10 @@ interface ICounter {
 }
 
 contract trycatch {
-   
     uint public y; 
-
     error Zero();
 
-    function myFunc(uint x) external returns (uint ) {
+    function myFunc(uint x) public returns (uint) {
         // require(x != 0, "require failed");
         if (x == 0) revert Zero();
 
@@ -36,17 +34,11 @@ contract trycatch {
             }
         }
         return y;
-
     }
-
     
     string public errMsg;
     bytes public errBytes;
     uint public errCode;
-
-    constructor( ) {
-    
-    }
 
     function tryCatchExternalCall(uint _i) public {
         // foo.myFunc(_i);
@@ -56,8 +48,7 @@ contract trycatch {
             //<-- handle Panic errors
             errCode = errorCode;
             console.log("error occurred with this error code: ", errorCode);
-        } 
-        catch Error(string memory reason) { //  catch revert 处理所有带有原因字符串的回滚
+        } catch Error(string memory reason) { //  catch revert 处理所有带有原因字符串的回滚
             errMsg = reason;
             console.log("error occured with this reason: ", reason);
         } catch (bytes memory lowLevelData) {  // 处理任意错误，包含自定义错误和没有消息字符串的错误。
@@ -70,26 +61,39 @@ contract trycatch {
         // 对错误数据不感兴趣，也可以使用 catch{ } 块， 将捕获来自被调用合约的任何错误
     }
 
+    function testCallCount(address addr) public {
+        ICounter(addr).count();
+    }
 
-    function cantCatch(address addr, uint cases) public {
+
+    // 依旧会报错
+    function cantCatch(uint cases) public {
         if (cases == 0 ) {
-            try ICounter(addr).count() {
+            // addr.call("0x7b1d829c") ;
+            try ICounter(address(0x0123)).count() {
             } catch { 
 
             }
-        } else if (cases == 1 ) {
-            try this.myFunc(1) {
+        } else if (cases == 1 ) { 
+            try this.myFunc(1) returns (uint result) {
+                y = result;
             } catch Error(string memory reason) { 
                 console.log("catch then throw");
                 revert();
             } catch {
-
             }
         } else if (cases == 2 ) { // throw panic but only catch reason error
             try this.myFunc(2) {  // throw panic
             } catch Error(string memory reason) {   // catch reason error
             }
-        }  
+        } else if (cases == 4 ) { // set custom gas: 50000
+            try this.myFunc(4) returns (uint result) {
+                y = result;
+            } catch (bytes memory lowLevelData) {
+                errBytes = lowLevelData;
+                console.log("catch log lowLevelData");
+            }
+        }
 
     }
     
