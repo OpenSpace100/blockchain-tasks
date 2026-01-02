@@ -6,7 +6,7 @@ contract testRefund {
 
     // 43320(init)
     function set1Slot() public {
-        x = 2; 
+        x = 2;
     }
 
     // gas 26220
